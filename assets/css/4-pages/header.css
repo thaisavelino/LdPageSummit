@@ -1,7 +1,7 @@
 header {
 	background-image: url('../../img/video_test.jpg');
 	background-size: cover;
-	height: 450px;
+	height: 75vh;
 	background: #black;
 }
 .header-wrap {
