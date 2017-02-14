@@ -1,0 +1,40 @@
+header {
+	background-image: url('../../img/video_test.jpg');
+	background-size: cover;
+	height: 450px;
+	background: #black;
+}
+.header-wrap {
+	padding: 15px 30px;
+}
+
+.logo {
+	background-image: url('../../img/logo_test.png');
+	background-size: 100% 100%;
+	text-indent: -9999px;
+	width: 80px;
+	height: 70px;
+	float: left;
+}
+
+nav	{
+ 	float: right;
+}
+
+a {
+	color: rgba(255,255,255,0.7);
+	display: inline-block;
+	margin-left: 30px;
+}
+a:hover {
+	color: rgba(0,0,0,0.7);
+}
+
+
+h2 {
+	clear: both;
+	text-align: center;
+	vertical-align: center;
+	color: #fff;
+	font-size: 30px;
+}
