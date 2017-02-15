@@ -1,0 +1,42 @@
+
+section.palestrantes {
+	padding: 20px;
+}
+.palestrantes > h1 {
+	font-size:35px;
+	color: #26d3ea;
+}
+
+.twitter {
+	background-color: rgba(38, 211, 234, 0.8);
+	color: rgb(38, 211, 234);
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	max-width: 910px;
+}
+
+.metodo-apollo {
+	max-width: 500px;
+	float: right;
+}
+.metodo-apollo > h2 {
+	font: 'Lato', sans-serif;
+	font-size: 30px;
+	font-style: italic;
+	text-align: right;
+}
+.metodo-apollo > p {
+	font: 'Lato', sans-serif;
+	text-align: right;
+}
+.metodo-apollo > a {
+	color: #fff;
+	background-color: #26d3ea;
+	float: right;
+	padding: 7px 30px;
+}
+
+.hackathon-social {
+	clear: both;
+}
