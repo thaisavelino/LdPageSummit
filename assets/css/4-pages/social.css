@@ -139,8 +139,10 @@ body.social {
 }
 .imagem {
 	display: block;
-  margin: 10px -10px 10px 0;
-  text-align: right;
+	margin-left: 37px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: right;
 }
 .line-before, .line-after {
 	background-color: #FF9700;
