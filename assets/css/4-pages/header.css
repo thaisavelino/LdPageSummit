@@ -1,14 +1,14 @@
-header {
+.index > header {
 	background-image: url('../../img/video_test.jpg');
 	background-size: cover;
 	height: 75vh;
 	background: #black;
 }
-.header-wrap {
+.index > header > .header-wrap {
 	padding: 15px 30px;
 }
 
-.logo {
+.index > header > .header-wrap > .logo {
 	background-image: url('../../img/logo_test.png');
 	background-size: 100% 100%;
 	text-indent: -9999px;

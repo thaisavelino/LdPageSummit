@@ -1,19 +1,87 @@
-body.social-body {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,00b0ff+37,000000+87,000000+100 */
+body.social {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+4,00b0ff+37,000000+87,000000+100 */
 	background: rgb(255,255,255); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(0,176,255,1) 37%, rgba(0,0,0,1) 87%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(0,176,255,1) 37%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(0,176,255,1) 37%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 4%, rgba(0,176,255,1) 37%, rgba(0,0,0,1) 87%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 4%,rgba(0,176,255,1) 37%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 4%,rgba(0,176,255,1) 37%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 
+
+
 	height: 3500px;
+	overflow: hidden; /* arrumar scroll duplo*/
 }
 
+
 .background {
-	height: 100%;
+	height: 86%; /*corrigir a altura do header e footer*/
 	margin: 0 auto;
 	background-image: url(../../img/bg-social/terra.png), url(../../img/bg-social/lua.png),  url(../../img/bg-social/estrelas.png);
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: center top, center bottom, center bottom;
     background-size: 50% auto, 100% auto, 100% auto;
 }
+
+.social > header {
+	height: 300px;
+}
+
+.social > header > .logo {
+	background-image: url(../../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	text-indent: -9999px;
+	width: 180px;
+	height: 42px;
+	float: left;
+	margin: 20px;
+}
+
+.social > header > .menu {
+	float: right;
+	margin: 20px;
+}
+
+.social > header > .menu > a {
+	color: #F6921E;
+	font-size: 30px;	
+}
+
+
+.apollo {
+	width: 255px;
+	text-align: center;
+	margin: 0 auto;
+	clear: both;
+
+	padding: 40px 0;
+}
+.apollo > h1 {
+	line-height: 0.05;
+	color: #F6921E;
+}
+
+
+.social > footer {
+	height: 190px;
+	background-color: rgba(165, 179, 186,0.4);
+	margin: 0 auto;
+	background-image: url(../../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 190px auto;
+	background-position: right bottom;
+}
+
+
+.social > footer > h2 {
+	color: #F6921E;
+	margin: 20px;
+}
+
+.social > footer > a.button {
+	background-color: #FF9800;
+    border-radius: 9px;
+    padding: 8px 30px;
+    color: #fff;
+}
+
