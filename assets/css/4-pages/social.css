@@ -14,7 +14,7 @@ body.social {
 
 
 .background {
-	height: 86%; /*corrigir a altura do header e footer*/
+	height: 72%; /*corrigir a altura do header e footer*/
 	margin: 0 auto;
 	background-image: url(../../img/bg-social/terra.png), url(../../img/bg-social/lua.png),  url(../../img/bg-social/estrelas.png);
 	background-repeat: no-repeat, no-repeat, no-repeat;
