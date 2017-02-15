@@ -19,6 +19,8 @@ section.palestrantes {
 .metodo-apollo {
 	max-width: 500px;
 	float: right;
+	padding: 0 50px;
+
 }
 .metodo-apollo > h2 {
 	font: 'Lato', sans-serif;
@@ -30,13 +32,11 @@ section.palestrantes {
 	font: 'Lato', sans-serif;
 	text-align: right;
 }
-.metodo-apollo > a {
-	color: #fff;
-	background-color: #26d3ea;
-	float: right;
-	padding: 7px 30px;
-}
 
 .hackathon-social {
 	clear: both;
+  	padding: 0 50px;
+  	background-color: #ccc;
+  	height: 200px;
+
 }

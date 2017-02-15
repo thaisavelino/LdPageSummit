@@ -9,11 +9,11 @@
 }
 
 .index > header > .header-wrap > .logo {
-	background-image: url('../../img/logo_test.png');
-	background-size: 100% 100%;
+	background-image: url(../../img/logo.png);
+	background-size: 100% auto;
 	text-indent: -9999px;
-	width: 80px;
-	height: 70px;
+	width: 160px;
+	height: 40px;
 	float: left;
 }
 

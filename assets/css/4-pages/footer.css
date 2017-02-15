@@ -6,3 +6,16 @@ footer {
 	margin-top: 20px;
 	padding:20px;
 }
+
+.index-footer {
+	height: 500px;
+	margin-top: 30px;
+	background-color: #ea7b26;
+	clear: both;
+}
+
+.index-footer h3 {
+    font-size: 18px;
+    color: rgba(255,255,255,0.8);
+    text-align: center;
+}
