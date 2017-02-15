@@ -19,7 +19,7 @@ body.social {
 	background-image: url(../../img/bg-social/terra.png), url(../../img/bg-social/lua.png),  url(../../img/bg-social/estrelas.png);
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: center top, center bottom, center bottom;
-    background-size: 50% auto, 100% auto, 100% auto;
+  background-size: 50% auto, 100% auto, 100% auto;
 }
 
 .social > header {
@@ -90,3 +90,12 @@ body.social {
 /*===========================
 = 					Boxes						=
 ============================*/
+.black-box {
+	padding: 15px;
+	border: 1px solid #FF9700;
+	background-color: rgba(0,0,0, 0.6);
+	color: #FF9700;
+}
+.black-box h2 {
+	margin-top: 0;
+}
