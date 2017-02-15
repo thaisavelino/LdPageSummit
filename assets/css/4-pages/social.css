@@ -6,11 +6,12 @@ body {
 	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(0,176,255,1) 37%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 
-	height: 2500px;
+	height: 3500px;
 }
 
 .background {
 	height: 100%;
+	margin: 0 auto;
 	background-image: url(../../img/bg-social/terra.png), url(../../img/bg-social/lua.png),  url(../../img/bg-social/estrelas.png);
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: center top, center bottom, center bottom;
