@@ -99,7 +99,6 @@ body.social {
 .black-box h2 {
 	margin-top: 0;
 }
-
 /*===========================
 = 					Menu						=
 ============================*/
@@ -125,4 +124,33 @@ body.social {
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
 	background-color: transparent;
 	color: #F6921E;
+}
+
+/*===========================
+= 					posts						=
+============================*/
+.post {
+	height: 234px;
+}
+.icon {
+	font-size: 50px;
+	color: #FF4600;
+	margin: 10px auto;
+}
+.imagem {
+	display: block;
+  margin: 10px -10px 10px 0;
+  text-align: right;
+}
+.line-before, .line-after {
+	background-color: #FF9700;
+	width: 4px;
+	height: 82px;
+	display: block;
+	margin-left: 82%;
+}
+@media (max-width: 991px) {
+	.line-before, .line-after, .icon, .imagem {
+		display: none;
+	}
 }
