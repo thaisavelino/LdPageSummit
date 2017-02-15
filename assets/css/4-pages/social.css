@@ -15,5 +15,5 @@ body {
 	background-image: url(../../img/bg-social/terra.png), url(../../img/bg-social/lua.png),  url(../../img/bg-social/estrelas.png);
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: center top, center bottom, center bottom;
-    background-size: 50% auto, 100% auto, auto auto;
+    background-size: 50% auto, 100% auto, 100% auto;
 }
