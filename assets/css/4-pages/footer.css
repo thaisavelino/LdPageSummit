@@ -8,17 +8,22 @@ footer {
 }
 
 .partners {
-	height: 500px;
-	margin-top: 30px;
+	height: 300px;
+	margin: 0 auto;
 	background-color: #ea7b26;
 	clear: both;
-}
-
-.partners {
-    font-size: 18px;
+	padding: 5px;
+    font-size: 15px;
     color: rgba(255,255,255,0.8);
     text-align: center;
 }
+.social-icons{
+	margin: 10px auto;
+}
+.parceiros-icons {
+	margin: 20px auto;
+}
+
 
 .copyright {
 	padding: 10px 5px;
