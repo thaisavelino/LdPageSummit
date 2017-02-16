@@ -38,5 +38,9 @@ section.palestrantes {
   	padding: 0 50px;
   	background-color: #ccc;
   	height: 200px;
-
+  	text-align: center;
+}
+.actions {
+	text-align: center;
+	margin: 0 auto;
 }
