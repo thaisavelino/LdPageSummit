@@ -71,12 +71,13 @@
 }
 .ca-item-2 .ca-icon{
 	background-image:url(../images/ft_person2_slider.png);
+    background-size: 110px;
 }
 .ca-item-3 .ca-icon{
 	background-image:url(../images/ft_person3_slider.png);
 }
 .ca-item-4 .ca-icon{
-	background-image:url(../images/animal4.png);
+	background-image:url(../images/ft_person3_slider.png);
 }
 
 .ca-item h3{
