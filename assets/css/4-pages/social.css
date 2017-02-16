@@ -14,12 +14,12 @@ body.social {
 
 
 .background {
-	height: 86%; /*corrigir a altura do header e footer*/
+	height: 72%; /*corrigir a altura do header e footer*/
 	margin: 0 auto;
 	background-image: url(../../img/bg-social/terra.png), url(../../img/bg-social/lua.png),  url(../../img/bg-social/estrelas.png);
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: center top, center bottom, center bottom;
-    background-size: 50% auto, 100% auto, 100% auto;
+  background-size: 50% auto, 100% auto, 100% auto;
 }
 
 .social > header {
@@ -44,7 +44,7 @@ body.social {
 
 .social > header > .menu > a {
 	color: #F6921E;
-	font-size: 30px;	
+	font-size: 30px;
 }
 
 
@@ -85,3 +85,74 @@ body.social {
     color: #fff;
 }
 
+
+/*Marcelo CSS*/
+/*===========================
+= 					Boxes						=
+============================*/
+.black-box {
+	padding: 15px;
+	border: 1px solid #FF9700;
+	background-color: rgba(0,0,0, 0.6);
+	color: #FF9700;
+}
+.black-box h2 {
+	margin-top: 0;
+}
+/*===========================
+= 					Menu						=
+============================*/
+.menu {
+	margin-top: 20px;
+	list-style: none;
+}
+.menu a {
+	color: #F6921E;
+	font-size: 22px;
+}
+.menu a:hover, .menu a:focus {
+	text-decoration: none;
+}
+.dropdown-menu {
+	background-color: transparent;
+	border: 0;
+	box-shadow: 0;
+}
+.dropdown-menu a {
+	font-size: 15px;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-color: transparent;
+	color: #F6921E;
+}
+
+/*===========================
+= 					posts						=
+============================*/
+.post {
+	height: 234px;
+}
+.icon {
+	font-size: 50px;
+	color: #FF4600;
+	margin: 10px auto;
+}
+.imagem {
+	display: block;
+	margin-left: 37px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+.line-before, .line-after {
+	background-color: #FF9700;
+	width: 4px;
+	height: 82px;
+	display: block;
+	margin-left: 82%;
+}
+@media (max-width: 991px) {
+	.line-before, .line-after, .icon, .imagem {
+		display: none;
+	}
+}
