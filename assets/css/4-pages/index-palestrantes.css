@@ -43,3 +43,22 @@ section.palestrantes {
 	text-align: center;
 	margin: 0 auto;
 }
+
+.programação, .cronograma {
+	margin: 10px auto;
+	width: 300px;
+	text-align: left;
+	color: #FFF;
+}
+.tabela {
+	width: 300px;
+}
+.tabela tr:nth-child(even) {
+	background-color: #01b5ce;
+}
+.tabela tr:nth-child(odd) {
+	background-color: #0097ac;
+}
+.tabela	tr td, .tabela tr th {
+    padding: 10px 15px;
+}
