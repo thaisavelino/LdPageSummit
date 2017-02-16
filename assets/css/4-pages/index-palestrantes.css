@@ -1,6 +1,8 @@
 
 section.palestrantes {
 	padding: 20px;
+	max-width: 940px;
+	margin: 0 auto;
 }
 .palestrantes > h1 {
 	font-size:35px;
@@ -17,38 +19,56 @@ section.palestrantes {
 }
 
 .metodo-apollo {
-	max-width: 500px;
-	float: right;
+	max-width: 940px;
 	padding: 0 50px;
-
+	margin: 0 auto;
+	clear: both;
+	padding: 30px 10px;
 }
 .metodo-apollo > h2 {
 	font: 'Lato', sans-serif;
 	font-size: 30px;
 	font-style: italic;
 	text-align: right;
+	margin: 20px 0;
 }
 .metodo-apollo > p {
 	font: 'Lato', sans-serif;
 	text-align: right;
+	max-width: 450px;
+	float: right;
+	font-weight: 2;
 }
-
+.metodo-apollo > a {
+	clear: both;
+	margin: 20px 0;
+}
 .hackathon-social {
+	font-size: 30px;
+	font-family: sans-serif;
 	clear: both;
   	padding: 0 50px;
   	background-color: #e5f8fb;
   	text-align: center;
+  	margin: 0 auto;
 }
-.actions {
+.actions {	
 	text-align: center;
+	margin: 20px auto;
+    clear: both;
+    width: 600px;
+}
+.tabelas {
+	width: 710px;
 	margin: 0 auto;
 }
 
 .programação, .cronograma {
-	margin: 10px auto;
+	margin: 10px 20px;
 	width: 300px;
 	text-align: left;
 	color: #FFF;
+	float: left;
 }
 .tabela {
 	width: 300px;
