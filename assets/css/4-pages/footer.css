@@ -7,15 +7,35 @@ footer {
 	padding:20px;
 }
 
-.index-footer {
+.partners {
 	height: 500px;
 	margin-top: 30px;
 	background-color: #ea7b26;
 	clear: both;
 }
 
-.index-footer h3 {
+.partners {
     font-size: 18px;
     color: rgba(255,255,255,0.8);
     text-align: center;
+}
+
+.copyright {
+	padding: 10px 5px;
+	background-color: #fff;
+	color: #ea7b26;
+	margin: 0 30px;
+	font-size: 20px;
+	font-family: sans-serif;
+	height: 60px;
+	text-align: center;
+	vertical-align: middle;
+}
+.copyright img {
+	width: 130px;
+    margin: 0 47px;
+    vertical-align: middle;
+}
+.copyright span {
+	vertical-align: middle;
 }
