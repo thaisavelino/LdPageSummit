@@ -38,9 +38,9 @@ nav.menu > .active > li > a {
 }
 .banner {
   clear: both;
-  margin: 50px 10px;
   max-width: 500px;
   margin: 0 auto;
+  padding-top: 200px;
 }
 
 .banner-ready {

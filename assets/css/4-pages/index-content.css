@@ -1,4 +1,19 @@
 
+.bg {
+	background-image: url(../../img/bg-index/bg_index.png);
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+}
+.ca-container {
+	background-color: #FFF;
+}
+.metodo-apollo {
+	color: #000;
+}
+.hackathon-social h1 {
+	color: #000;
+}
 section.palestrantes {
 	padding: 20px;
 	margin: 0 auto;
@@ -137,7 +152,7 @@ arrumar form
 		padding-left: 30px;
 	}
 }
-@media (max-width: 751px) {
+/*@media (max-width: 751px) {
 	.hackathon-social .content-wrapper {
 		max-width: 400px;
 		margin: 0 auto;
@@ -145,17 +160,19 @@ arrumar form
 	}
 	.tabela {
 		max-width: 350px;
-		margin-left: 0;
-		margin-right: 0; 
-	}
-	.menu a {
-		font-size: 20px;
-	}
-}
+	}	
+	
+}*/
 
 @media (max-width: 751px) {
+	.bg {
+		background-image: none;
+	}
 	.index > header {
 		height: 60vh;
+	}
+	.banner {
+		padding-top: 100px;
 	}
 	.banner-ready h2 {
 		font-size: 30px;
@@ -168,11 +185,17 @@ arrumar form
 	
 	.tabela {
 		max-width: 290px;
+		margin-left: 0;
+		margin-right: 0; 
 	}
-	.hackathon-social h1 {
+
+	.menu a {
+		font-size: 20px;
+	}
+	/*.hackathon-social h1 {
 		text-align: left;
 		font-size: 25px;
-	}
+	}*/
 	.copyright span {
 		font-size: 15px;
 	}
@@ -211,5 +234,8 @@ arrumar form
 	.metodo-apollo {
 		padding-left: 5px;
 		padding-right: 5px;
+	}
+	.banner {
+		padding-top: 50px;
 	}
 }
