@@ -3,11 +3,12 @@
 	background-image: url(../../img/bg-index/bg_index.png);
 	background-repeat: no-repeat;
     background-size: 100% auto;
-    background-position: center center;
+    background-position: top center;
 }
-.ca-container {
-	background-color: #FFF;
-}
+/*.ca-container {
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 118px;
+}*/
 .metodo-apollo {
 	color: #000;
 }
