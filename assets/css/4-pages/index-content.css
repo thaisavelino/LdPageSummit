@@ -1,13 +1,14 @@
 
 section.palestrantes {
 	padding: 20px;
-	max-width: 940px;
 	margin: 0 auto;
+	clear: both;
 }
-.palestrantes > h1 {
-	font-size:35px;
-	color: #26d3ea;
+
+section.palestrantes .content-wrapper {
+	max-width: 1150px;
 }
+
 
 .twitter {
 	background-color: rgba(38, 211, 234, 0.8);
@@ -48,35 +49,33 @@ section.palestrantes {
 	font-family: sans-serif;
 	clear: both;
   	padding: 0 50px;
-  	background-color: #e5f8fb;
+  	/*background-color: #e5f8fb;*/
   	text-align: center;
   	margin: 0 auto;
+  	
 }
-.hackathon-social h1 {
-	font-size: 35px;
-	color: #fff;
 
-}
 .actions {	
 	text-align: center;
 	margin: 20px auto;
     clear: both;
-    width: 600px;
+    max-width: 600px;
 }
 .tabelas {
-	width: 1024px;
+	max-width: 685px;
 	margin: 0 auto;
+	font-size: 20px;
 }
 
 .programação, .cronograma {
+	
+}
+.tabela {
 	margin: 10px 20px;
-	width: 400px;
+	width: 300px;
 	text-align: left;
 	color: #FFF;
 	float: left;
-}
-.tabela {
-	width: 400px;
 }
 .tabela tr:nth-child(even) {
 	background-color: #01b5ce;

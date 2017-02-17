@@ -34,9 +34,16 @@ nav.menu > .active > li > a {
 .menu.active li a:hover {
 	color: rgba(0,0,0,0.7);
 }
+.banner {
+  clear: both;
+  margin: 50px 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
 
 .banner-ready {
 	padding: 20px;
+	background-color: black;
 }
 
 -------------------------------

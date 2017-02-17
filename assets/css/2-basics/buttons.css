@@ -1,10 +1,24 @@
 .button {
-	color: #fff;
+	color: #FFF;
 	background-color: #26d3ea;
 	float: right;
 	padding: 7px 30px;
 }
 
 .button.transparent {
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(0,0,0,0.2);
+	border: 1px solid rgba(0,0,0,0.6);
+}
+.button-border {
+	border: 2px solid #FFF;
+	padding: 9px 40px;
+	color: #FFF;
+	font-weight: 300;
+	text-indent: center;
+	vertical-align: middle;
+}
+.actions a {
+	margin: 20px 8px;
+	width: 176px;
+	float: left;
 }
