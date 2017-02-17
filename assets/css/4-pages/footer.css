@@ -8,11 +8,10 @@ footer {
 }
 
 .partners {
-	height: 300px;
 	margin: 0 auto;
 	background-color: #ea7b26;
 	clear: both;
-	padding: 5px;
+	padding: 20px 5px;
     font-size: 15px;
     color: rgba(255,255,255,0.8);
     text-align: center;
@@ -20,10 +19,12 @@ footer {
 .social-icons{
 	margin: 10px auto;
 }
+.social-icons h3 {
+	margin-bottom: 20px;
+}
 .parceiros-icons {
 	margin: 20px auto;
 }
-
 
 .copyright {
 	padding: 10px 5px;
