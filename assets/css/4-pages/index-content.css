@@ -39,8 +39,8 @@ section.palestrantes .content-wrapper {
 	font: 'Lato', sans-serif;
 	text-align: right;
 	max-width: 580px;
+    line-height: 2.2;
 	float: right;
-	font-weight: 2;
 }
 .metodo-apollo > a {
 	clear: both;
@@ -50,7 +50,7 @@ section.palestrantes .content-wrapper {
 	font-size: 30px;
 	font-family: sans-serif;
 	clear: both;
-  	padding: 30px 5px;
+  	padding: 10px 5px;
   	
   	text-align: center;
   	margin: 0 auto;
@@ -66,31 +66,44 @@ section.palestrantes .content-wrapper {
 	text-align: center;
 	margin: 30px auto 0 auto;
     clear: both;
-    max-width: 600px;
+    max-width: 680px;
 }
-.tabelas {
+/*.tabelas {
 	max-width: 685px;
 	margin: 0 auto;
-	font-size: 20px;
-}
+}*/
 
-.programação, .cronograma {
-	
-}
+
 .tabela {
-	margin: 10px 20px;
-	width: 300px;
+	margin: 30px auto;
+	width: 350px;
 	text-align: left;
-	color: #FFF;
-	float: left;
+	border-radius: 4px;
 }
 .tabela tr:nth-child(even) {
 	background-color: #01b5ce;
+	color: rgba(255,255,255,0.8);
 }
 .tabela tr:nth-child(odd) {
 	background-color: #0097ac;
+	color: rgba(255,255,255,0.8);
 }
 .tabela	tr td, .tabela tr th {
-    padding: 10px 15px;
+    padding: 20px 15px 20px 25px;
+}
+.tabela tr th {
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+}
+.programação, .cronograma {
+	font-size: 18px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+	margin-top: 100px;
 }
 

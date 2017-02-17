@@ -1,12 +1,26 @@
 .button {
 	color: #FFF;
-	background-color: #26d3ea;
 	float: right;
 	padding: 7px 30px;
+	border-radius: 4px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#01b5ce+0,01b5ce+45,0097ac+64,0097ac+100 */
+	background: rgb(1,181,206); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(1,181,206,1) 0%, rgba(1,181,206,1) 45%, rgba(0,155,182,1) 64%, rgba(0,155,182,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(1,181,206,1) 0%,rgba(1,181,206,1) 45%,rgba(0,155,182,1) 64%,rgba(0,155,182,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(1,181,206,1) 0%,rgba(1,181,206,1) 45%,rgba(0,155,182,1) 64%,rgba(0,155,182,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01b5ce', endColorstr='#0097ac',GradientType=0 ); /* IE6-9 */
 }
 
+.button:hover {
+	background: rgb(1,181,206); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(18,188,212,1) 0%, rgba(18,188,212,1) 45%, rgba(0,172,193,1) 64%, rgba(0,172,193,1) 100%); /* FF3.6-15 */8
+	background: -webkit-linear-gradient(top,  rgba(18,188,212,1) 0%,rgba(18,188,212,1) 45%,rgba(0,172,193,1) 64%,rgba(0,172,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(18,188,212,1) 0%,rgba(18,188,212,1) 45%,rgba(0,172,193,1) 64%,rgba(0,172,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01b5ce', endColorstr='#0097ac',GradientType=0 ); /* IE6-9 */
+}
 .button-border {
 	border: 2px solid #FFF;
+	border-radius: 4px;
 	padding: 9px 40px;
 	color: #FFF;
 	font-weight: 300;
@@ -15,12 +29,13 @@
 }
 input, .actions a {
 	margin: 20px 8px;
-	width: 176px;
+	width: 206px;
 	float: left;
+	border-radius: 4px;
 }
 input {
 	background-color: rgba(0,151,172,0.1);
 	border: 1px solid rgba(0,151,172,0.6);
-	padding: 8px;
-	font-size: 20px;
+	padding: 9px;
+	font-size: 18px;
 }
