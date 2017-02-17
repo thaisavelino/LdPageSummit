@@ -44,6 +44,9 @@ nav.menu > .active > li > a {
 .banner-ready {
 	padding: 20px;
 	background-color: black;
+	background-image: url("../../img/banner-index/estrelas.png");
+  	background-repeat: repeat-x;
+  	background-size: 100% 100%; 
 }
 
 -------------------------------
