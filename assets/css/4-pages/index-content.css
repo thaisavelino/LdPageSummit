@@ -86,3 +86,29 @@ section.palestrantes .content-wrapper {
 .tabela	tr td, .tabela tr th {
     padding: 10px 15px;
 }
+
+---------------------------------------
+	diagonal parallax
+---------------------------------------
+.diagonal {
+  overflow:hidden;
+  position: relative;
+  transform: skewY(-40deg);
+}
+
+.diagonal .background {
+  background-image: url("http://cdn.mike-moore.co.uk/images/backgrounds/textures/congruent_pentagon.png");
+  background-position:0 0;
+  position:absolute;
+  top:-50%;
+  bottom:-50%;
+  left:0;
+  right:0;
+  transform: skewY(40deg);
+}
+
+.diagonal .content {
+  position:relative;
+  z-index:1;
+  transform: skewY(40deg);
+}
