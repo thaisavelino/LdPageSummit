@@ -19,7 +19,7 @@ section.palestrantes {
 }
 
 .metodo-apollo {
-	max-width: 940px;
+	max-width: 1024px;
 	padding: 0 50px;
 	margin: 0 auto;
 	clear: both;
@@ -27,7 +27,7 @@ section.palestrantes {
 }
 .metodo-apollo > h2 {
 	font: 'Lato', sans-serif;
-	font-size: 30px;
+	font-size: 35px;
 	font-style: italic;
 	text-align: right;
 	margin: 20px 0;
@@ -52,6 +52,10 @@ section.palestrantes {
   	text-align: center;
   	margin: 0 auto;
 }
+.hackathon-social h1 {
+	font-size: 35px;
+	color: #fff;
+}
 .actions {	
 	text-align: center;
 	margin: 20px auto;
@@ -59,19 +63,19 @@ section.palestrantes {
     width: 600px;
 }
 .tabelas {
-	width: 710px;
+	width: 1024px;
 	margin: 0 auto;
 }
 
 .programação, .cronograma {
 	margin: 10px 20px;
-	width: 300px;
+	width: 400px;
 	text-align: left;
 	color: #FFF;
 	float: left;
 }
 .tabela {
-	width: 300px;
+	width: 400px;
 }
 .tabela tr:nth-child(even) {
 	background-color: #01b5ce;
