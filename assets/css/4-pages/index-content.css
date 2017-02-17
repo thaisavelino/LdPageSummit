@@ -62,16 +62,6 @@ section.palestrantes .content-wrapper {
   	background-position: top center;  	*/
 }
 
-.actions {	
-	text-align: center;
-	margin: 30px auto 0 auto;
-    clear: both;
-    max-width: 680px;
-}
-/*.tabelas {
-	max-width: 685px;
-	margin: 0 auto;
-}*/
 
 
 .tabela {
@@ -103,7 +93,123 @@ section.palestrantes .content-wrapper {
 	float: left;
 }
 .right {
-	float: right;
+	float: left;
 	margin-top: 100px;
 }
 
+/*turar o right
+centralizar
+
+arrumar form
+*/
+
+.actions {	
+	text-align: center;
+	margin: 30px auto 0 auto;
+    clear: both;
+    max-width: 680px;
+}
+/*.tabelas {
+	max-width: 685px;
+	margin: 0 auto;
+}*/
+
+@media (max-width: 967px) {
+	.hackathon-social img {
+		max-width: 300px;
+	}
+	.hackathon-social figure {
+		margin: 1em auto;
+	}
+	.tabela {
+		max-width: 300px;
+	}
+	.hackathon-social .content-wrapper {
+		max-width: 700px;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+	.left {
+		margin-right: 40px;
+	}
+	.metodo-apollo {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
+@media (max-width: 751px) {
+	.hackathon-social .content-wrapper {
+		max-width: 400px;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+	.tabela {
+		max-width: 350px;
+		margin-left: 0;
+		margin-right: 0; 
+	}
+	.menu a {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 751px) {
+	.index > header {
+		height: 60vh;
+	}
+	.banner-ready h2 {
+		font-size: 30px;
+	}
+	.hackathon-social .content-wrapper {
+		max-width: 300px;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+	
+	.tabela {
+		max-width: 290px;
+	}
+	.hackathon-social h1 {
+		text-align: left;
+		font-size: 25px;
+	}
+	.copyright span {
+		font-size: 15px;
+	}
+	.copyright img {
+		margin: 0 20px;
+	}
+}
+
+@media (max-width: 500px) {
+	.logo {
+		width: 125px;
+	}
+	.index nav.menu a, nav.menu > .active > li > a {
+		font-size: 15px;
+		margin-left: 0;
+	}
+
+	.hackathon-social img {
+		max-width: 200px;
+		text-align: left;
+	}
+	.hackathon-social h1, .metodo-apollo h2 {
+		font-size: 25px;
+	}
+	.copyright span {
+	    display: inherit;
+	}
+}
+@media (max-width: 390px) {
+	.button-border {
+		padding: 5px;
+	}
+	.banner-ready h2, .palestrantes h1, .ca-container h3 {
+		font-size: 20px;
+	}
+	.metodo-apollo {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}

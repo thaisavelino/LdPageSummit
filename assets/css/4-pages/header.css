@@ -18,7 +18,9 @@
 	height: 40px;
 	float: left;
 }
-
+.index nav.menu {
+	margin-top: 5px;
+}
 nav.menu	{
  	float: right;
 }
