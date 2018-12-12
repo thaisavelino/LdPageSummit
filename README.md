@@ -1,2 +1,2 @@
 # LdPageVemElonMusk
-Landing Page
+Landing Page for a hackathon project at GamaAcademy Brazil
